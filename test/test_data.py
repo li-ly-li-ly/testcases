@@ -8,6 +8,6 @@ class Test_data():
             print("这是测试环境")
             print(env)
         elif 'dev' in env:
-            print('这是开发环境')
+            print('这是开发环境1212')
             print(type(env))
     print(yaml.safe_load(open("./env.yml")))
