@@ -21,7 +21,7 @@ class Mytest(unittest.TestCase):
         self.assertEqual(2, 2, '判断相等')
     @unittest.skip
     def test_03(self):
-        logging.info('第一个测试用例执行')
+        logging.info('第一个测试用例执行1')
         self.assertEqual(2, 5, '判断相等')
 if __name__ == '__main__':
     unittest.main()
